@@ -101,7 +101,7 @@ uint8_t Spectrogram::freq_byte(formant_sample_t dist) {
     if (dist >= RADIUS)
         return GREY_MAX;
 
-    return GREY_MIN + GREY_RANGE * pow(dist, 1) / pow(RADIUS, 1);
+    return GREY_MIN + GREY_RANGE * pow(dist, 1) / RADIUS;
 }
 
 QRgb Spectrogram::freq_argb(formant_sample_t f, formant_sample_t f1,

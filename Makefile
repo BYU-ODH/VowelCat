@@ -184,7 +184,7 @@ $(DIRS): | $(BUILD)
 
 # Build the portaudio static library.
 $(STATICLIB_PORTAUDIO):
-	cd $(BUILD_PORTAUDIO) && ./configure --enable-static
+	cd $(BUILD_PORTAUDIO) && ./configure --enable-static --without-jack
 	$(MAKE) -C $(BUILD_PORTAUDIO)
 	cp $(STATICLIB_PORTAUDIO_BUILD) $@
 
