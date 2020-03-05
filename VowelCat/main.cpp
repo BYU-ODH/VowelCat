@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 #include <QApplication>
+#include <QSplashScreen>
 
 extern "C" {
 #include "audio.h"

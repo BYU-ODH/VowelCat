@@ -7,7 +7,6 @@
 
 //***************************
 #include <stdlib.h>
-#define __USE_POSIX
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
