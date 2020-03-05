@@ -35,10 +35,10 @@ public:
 
     // Stop the plotter and wait for it to finish processing.
     void stop();
+    void newFormant(formant_sample_t f1, formant_sample_t f2);
 
 signals:
     void pauseSig();
-    void newFormant(formant_sample_t f1, formant_sample_t f2);
     void newSamples(size_t offset);
 
 private:
