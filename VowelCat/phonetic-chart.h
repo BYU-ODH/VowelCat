@@ -10,6 +10,7 @@
 
 #include <QString>
 #include <QVector>
+#include <QLabel>
 
 #include "qcustomplot.h"
 

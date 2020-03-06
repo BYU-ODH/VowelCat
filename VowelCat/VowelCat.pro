@@ -41,3 +41,6 @@ QMAKE_CXXFLAGS += $$(CFLAGS)
 
 LIBS += -lm
 LIBS += $(LDFLAGS)
+
+# https://stackoverflow.com/questions/34040791/no-matching-function-for-call-to-connect-qt-5-5
+CONFIG += c++11

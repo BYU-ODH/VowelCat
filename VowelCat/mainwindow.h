@@ -15,6 +15,7 @@
 #include <QFileDialog>
 #include <QMainWindow>
 #include <QPushButton>
+#include <QSignalMapper>
 #include <QString>
 #include <QTimer>
 
